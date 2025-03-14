@@ -36,41 +36,50 @@
   <!-- main -->
   <main>
     <!-- page-title -->
-     <div class="page-title-wrapper">
+    <div class="page-title-wrapper">
       <h1 class="page-title">Contact</h1>
       <div class="page-title-bottom">Contact us</div>
-     </div>
-     <!-- //page-title -->
+    </div>
+    <!-- //page-title -->
 
-     <!-- form -->
+    <!-- form -->
     <form action="" class="form-wrapper">
       <ul class="form-list">
         <li class="form-item">
           <label for="" class="form-label">お問い合わせ内容</label>
-          <li class="form-item">
-            <label for="" class="form-label">担当者名</label>
-          </li>
-          <li class="form-item">
-            <label for="" class="form-label">電話番号</label>
-          </li>
-          <li class="form-item">
-            <label for="" class="form-label">メールアドレス</label>
-          </li>
-          <li class="form-item">
-            <label for="" class="form-label">その他</label>
-          </li>
+          <ul class="checkbox-list">
+            <li class="checkbox-item">
+              <input type="checkbox" class="checkbox" id="document">
+              <label for="document">資料請求</label>
+            </li>
+            <li class="checkbox-item">
+              <input type="checkbox" class="checkbox" id="phone">
+              <label for="phone">お電話でのご相談</label>
+            </li>
+            <li class="checkbox-item">
+              <input type="checkbox" class="checkbox" id="application">
+              <label for="applicatoin">申し込み</label>
+            </li>
+          </ul>
+        </li>
+        <li class="form-item">
+          <label for="" class="form-label">担当者名</label>
+          <input type="text">
+        </li>
+        <li class="form-item">
+          <label for="" class="form-label">電話番号</label>
+          <input type="text" class="input-text">
+        </li>
+        <li class="form-item">
+          <label for="" class="form-label">メールアドレス</label>
+          <input type="text" class="input-text">
+        </li>
+        <li class="form-item">
+          <label for="" class="form-label">その他</label>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
         </li>
       </ul>
-
-資料請求
-お電話でのご相談
-申し込み
-
-
-
-
-そ
-
+<input type="submit" value="Submit" class="submit-btn">
     </form>
     <!-- //form -->
   </main>
@@ -81,6 +90,9 @@
     <small>&copy; cresta.design all rights reserved</small>
   </footer>
   <!-- //footer -->
+
+  <script src="https://ajax.googleapis.com/ajaw/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
