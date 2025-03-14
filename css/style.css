@@ -105,6 +105,7 @@ img {
   z-index: 1;
   box-sizing: border-box;
   width: 100%;
+  transition: .3s;
 }
 
 .header-inner {
@@ -148,6 +149,13 @@ img {
   display: none;
 }
 
+.header.fixed{
+  position: fixed;
+  background-color: #282f35;
+  padding: 30px;
+  width: 100%;
+  transition: .3s;
+}
 /* ----------------------------- */
 /* first view
 /* ----------------------------- */
