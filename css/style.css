@@ -167,6 +167,11 @@ img {
   background-size: cover;
   background-position: center;
 }
+.fv img{
+  height: 100vh;
+  min-height: 550px;
+  object-fit: cover;
+}
 
 .main-copy {
   position: absolute;
@@ -185,6 +190,9 @@ img {
   text-align: center;
 }
 
+.jp-copy{
+  display: none !important;
+}
 /* ----------------------------- */
 /* concept
 /* ----------------------------- */
@@ -392,6 +400,7 @@ img {
     height: 3px;
     width: 30px;
     background-color: #fff;
+    transition: .3s;
   }
 
   .bar_top,
@@ -399,6 +408,24 @@ img {
     margin-bottom: 8px;
   }
 
+  .burger-btn.cross .bar_top{
+transform-origin: rotate(45deg) transkate(8px,8px);
+transition: .3s;
+  }
+
+  .burger-btn.cross .bar_mid{
+    opacity: 0;
+    transition: .3s;
+  }
+
+.burger-btn.cross .bar_bottom{
+transform: rotate(-45deg) translate(8px,-8px);
+transition: .3s;
+  }
+
+  body.noscroll{
+    overflow: hidden;
+  }
   button {
     background-color: transparent;
     border: none;
