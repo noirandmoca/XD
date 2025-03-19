@@ -193,6 +193,9 @@ img {
 .jp-copy{
   display: none !important;
 }
+.slick-arrow{
+  display: none !important;
+}
 /* ----------------------------- */
 /* concept
 /* ----------------------------- */
@@ -409,7 +412,7 @@ img {
   }
 
   .burger-btn.cross .bar_top{
-transform-origin: rotate(45deg) transkate(8px,8px);
+transform: rotate(45deg) translate(8px,8px);
 transition: .3s;
   }
 
